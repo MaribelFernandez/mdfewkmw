@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Programa del promedio de una clase: repetición controlada por centinela.</title>
+    <style>
+        body {
+            background-image: url('th.jpg');
+            }
+        </style>
+    <script>
+
+        var total; 
+        var contadorCalificaciones;
+        var calificacion;
+        var valorCalificacion;
+        var promedio;
+
+        total=0;
+        contadorCalificaciones=0;
+       
+        calificacion=window.prompt(
+            "Escriba la calificación entera, -1 para salir:", "0");
+
+        valorCalificacion = parseInt( calificacion );
+
+        while(valorCalificacion != -1)
+        {
+
+            total = total + valorCalificacion;
+
+            contadorCalificaciones = contadorCalificaciones + 1;
+
+            calificacion = window.prompt(
+                "Escriba la calificación entera, -1 para salir:", "0"
+            );
+
+            valorCalificacion = parseInt(calificacion);
+        }
+
+        if (contadorCalificaciones != 0)
+        {
+            promedio = total / contadorCalificaciones;
+
+            document.writeln(
+                "<center><h1>El promedio de la clase es " + promedio + "</h1></center>"
+            );
+        }
+
+        else
+        document.writeln("<p>No se introdujeron calificaciones</p>");
+
+    </script>
+    </head><body></body>
+</html>
+        

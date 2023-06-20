@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="uft-8">
+    <title>Nuevos tipos de input de HTML5"</title>
+ </head>
+
+ <body>
+  <h1>Demo de nuevos de input de HTML5</h1>
+  <p>Este formulario demuestra los nuevos tipos de elementos 
+    input de HTML5 y los atributos placeholder, required y autobus. 
+  </p>
+
+    <form method="post" action="https://www.google.com"/>
+       <p>
+         <label>Color:
+            <input type = "Color" autobus />
+             (codigo; hexadecimal como #ADD8E6)
+         </label>
+       </p>
+       <p>
+           <label>Fecha:
+              <input type= "date" />
+                 (aaaa-mm-dd)    
+           </label>
+       </p>
+        <p>
+           <label>Hora y fecha:
+              <input type="datetime" />
+                 (aaaa-mm-ddThh:mm+ff:gg, como 27-01-2012T03:15)
+          </label>
+       </p>
+       <p>
+          <label>Hora y fecha-local:
+             <input type="datetime-local" />
+                (aaaa-mm-ddThh:mm, como 2012-01-27T03:15)
+          </label> 
+       </p>
+       <p> 
+           <label>Email:
+              <input type="email" placeholder="maribelfernandezcampos20@gmail.com"
+                 required /> (maribelfernandezcampos20@gmail.com)
+           </label>
+       </p>
+       <p>
+           <label>Mes:
+              <input type="month" /> (aaaa-mm)
+           </label>
+       </p>
+       <label>Numero
+        <input type = "number"
+        min = "0"
+        max = "20"
+        value = "10" />20
+       </label>
+       <label>Range
+        0<input type="range"
+        min = "0"
+        max = "20"
+        value = "10" /> 20
+       </label>
+       <p>
+       </p>
+       <label>Tel
+        <input type = "tel" placeholder="(###) ###-####"
+        pattern="\(/d{3})\ +\d{3}-\d{4}" required />
+        (###) ###-####
+       </label>
+       <p>
+       </p>
+       <label>Hora
+        <input type = "time" />  (hh:mm)
+       </label>
+       <p>
+       </p>
+       <p>
+       <label>URL
+        <input type = "http://www.nombredominio.com"/>
+        (http://www.nombredomnio.com)
+       </label>
+       </p>
+       <p>
+        <label>Semana
+        <input type = "week" />
+        (aaaa-Wnn, tal como 2012-W01)</label>
+       </p>
+       <p>
+       </a>
+        <input type="submit" value = "Enviar"/>
+        <input type ="reset" value="Borrar"/>
+       </p>
+      </form>
+ </body>
+ </html>
+

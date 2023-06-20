@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #d28ffffd;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  body {
+    border: 160px solid #e9c9fffd;
+    }
+  
+  article {
+      border: 2px dashed #e9c9fffd;
+      padding: 20px;
+      margin-bottom: 0px;
+  }
+
+  .boton-inicio {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1d8ff;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #f8dfff;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  

@@ -1,0 +1,93 @@
+article {
+	border: 8px dashed #e9c9fffd;
+	padding: 20px;
+	margin-bottom: 0px;
+}
+
+i {
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 120px;
+    margin-top: 40px;
+  }
+
+.caja {
+    width: 190px;
+    height: 118px;
+    background-color: #d18afa;
+    border: 1px solid #d18afa;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    float: left;
+    justify-content: center;
+  }
+  
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 255);
+    box-shadow: 25px 25px 50px rgb(106, 28, 137);
+    float: left;
+    margin-right: 10px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.boton {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #f8eafc;
+    color: rgb(27, 24, 24);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 9px;
+    justify-content: center;
+  }
+  .boton:hover {
+    background-color: #f1b8ff;
+    }
+
+    .boton-inicio {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #d18afa;
+      color: #333;
+      text-decoration: none;
+      border: 1px solid #f8dfff;
+      border-radius: 4px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    
+    .btn {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #008CBA;
+      border: none;
+      color: #000000;
+      text-align: center;
+      font-size: 16px;
+      padding: 10px;
+      width: 100px;
+      transition: all 0.5s;
+      cursor: cell;
+      margin: 100px;
+    }
+      
+      
+    .btn-next {
+      background-color: #d18afa;
+    }
+      
+    .btn:hover {
+      background-color: #f2dcfffd; 
+      color: #000000;
+      transform: scale(1.1);
+    }
+

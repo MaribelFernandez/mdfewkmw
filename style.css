@@ -1,0 +1,279 @@
+.navbar {
+  overflow: hidden;
+  background-color: #98f0f0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(90, 12, 12);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #e9c9fffd;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #e9c9fffd;
+    width: 100%;
+    z-index: 1;
+  }
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #e9c9fffd;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #e0b1fffd;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #e9c9fffd;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #dca7fffd;
+  color: rgb(5, 5, 5);
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #d0a5d8;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: rgb(219, 178, 228);
+}
+
+img {
+  float: right; 
+  margin-right: 3px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+
+@media (min-width: 992px) { 
+  body {
+    font-size: 20px;
+  }
+
+  .fila {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .columna {
+    flex-basis: 33.33%;
+  }
+}
+
+.button:hover {
+  background-color: #95d8ff;
+  color: #000000;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b3f1c8;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  }
+
+  
+  article h1 {
+    margin-top: 0;
+  }
+
+
+  .btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #008CBA;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  
+  .btn-next {
+    background-color: #daceff;
+  }
+    
+  .btn:hover {
+    background-color: #c1adff;
+    color: #000000;
+  }
+
+
+  .boton-transparente {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+  }
+  .boton-transparente:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  article {
+    border: 2px dashed #e9c9fffd;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+
+  summary {
+    font-size: 20px;
+  }
+
+  .lista-letra-pequena li {
+    font-size: 20px;
+}
+
+  .subrayado {
+    text-decoration: underline;
+    text-decoration-color: #f1aeff;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+
+td.columna1 {
+  background-color:  #efd6fffd;
+  color: #333; 
+}
+
+td.columna2 {
+  background-color: #f6e8fffd; 
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.text {
+  margin-left: 20px;
+}
+
+
+
+
+

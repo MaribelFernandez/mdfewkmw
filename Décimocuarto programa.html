@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alternar entre formatos de lista de HTML5.</title>
+        <style>
+            body {
+                background-image: url('th.jpg');
+                }
+            </style>
+        <script>
+
+            var seleccion;
+            var etiquetaInicial;
+            var etiquetaFinal;
+            var entradaValida = true;
+            var tipoLista;
+
+            seleccion = window.prompt( "Seleccione un estilo de lista:\n" + "1 (numerada), 2 (con letras), 3 (números romanos)", "1");
+
+            switch ( seleccion )
+            {
+                case "1":
+                    etiquetiquetaInicial = "<ol>";
+                    etiquetaFinal = "</ol>";
+                    tipoLista = "<center><h1>Lista numerada</h1></center>";
+                    break;
+                case "2":
+                    etiquetaInicial = "<ol style = 'list-style-type: upper-alpha'>";
+                    etiquetaFinal = "</ol>";
+                    tipoLista = "<center><h1>Lista con letras</h1></center>";
+                    break;
+                case "3":
+                    etiquetaInicial = "<ol style = 'list-style-type: upper-roman'>";
+                    etiquetaFinal = "</ol>";
+                    tipoLista = "<center><h1>Lista con números romanos</h1></center>";
+                    break;
+                  default:
+                    entradaValida = false;
+                    break;
+            }
+
+            if ( entradaValida === true )
+            {
+                document.writeln( tipoLista + etiquetaInicial);
+
+                for ( var i = 1; i <= 3; ++i )
+                   document.writeln( "<li>Elemento de lista " + i + "</li>")
+
+                document.writeln( etiquetaFinal );
+            }
+            else
+            document.writeln( "Seleccion inválida: " + seleccion );
+
+        </script>
+    </head><body></body>
+</html>
+
+
+
+
+
+
+
+
+
+    </head>
+</html>
